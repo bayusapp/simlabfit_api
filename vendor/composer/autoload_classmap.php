@@ -6,8 +6,13 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controllers\\Aslab' => $baseDir . '/app/Controllers/Aslab.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/Controllers/BaseController.php',
     'App\\Controllers\\Home' => $baseDir . '/app/Controllers/Home.php',
+    'App\\Controllers\\Test' => $baseDir . '/app/Controllers/Test.php',
+    'App\\Database\\Seeds\\SimlabDummy' => $baseDir . '/app/Database/Seeds/SimlabDummy.php',
+    'App\\Models\\M_Aslab' => $baseDir . '/app/Models/M_Aslab.php',
+    'App\\Models\\M_Aslab_Kehadiran' => $baseDir . '/app/Models/M_Aslab_Kehadiran.php',
     'CodeIgniter\\API\\ResponseTrait' => $vendorDir . '/codeigniter4/framework/system/API/ResponseTrait.php',
     'CodeIgniter\\Autoloader\\Autoloader' => $vendorDir . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
     'CodeIgniter\\Autoloader\\FileLocator' => $vendorDir . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
